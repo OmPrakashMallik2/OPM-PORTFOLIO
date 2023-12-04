@@ -628,6 +628,11 @@ nav .fa-solid {
     font-weight: 700;
   }
 
+  .code-icon {
+    padding: 15px 0;
+    /* justify-content: space-evenly; */
+  }
+
   #Home {
     background-image: url("images/home-phone.jpg");
   }
