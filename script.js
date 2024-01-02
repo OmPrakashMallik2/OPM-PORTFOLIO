@@ -42,7 +42,7 @@ function closemenu() {
 }
 
 var typed = new Typed(".text", {
-  strings: ["Front End Developer", "Programmer", "Web Developer"],
+  strings: ["Front-End Developer", "Java Programmer"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
