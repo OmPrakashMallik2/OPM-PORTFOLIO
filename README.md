@@ -32,6 +32,7 @@ Recently graduated in Computer Science and Engineering, I am a Java programmer a
 3. [**University Website**](https://universityopm.netlify.app/): A demo website for a university designed and developed by me.
 4. [**Netflix Clone**](#): Currently working on building a Netflix clone using React and Firebase.
 5. [**Clock Web App**](https://clock-web-app.vercel.app/): An online Clock web app with features like Alarm, Timer, and Stopwatch.
+6. [**Bank Management System**](https://opmportfolio.netlify.app/): A fully functional project developed using Java, MySql.
 
 ## Certificates
 
