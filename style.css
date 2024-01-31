@@ -75,9 +75,11 @@
 .home-content h3 span {
   color: #ff7200;
 }
+
 .home-content h3:nth-of-type(2) {
   margin-bottom: 30px;
 }
+
 .home-content h1 {
   font-size: 56px;
   font-weight: 700;
@@ -86,6 +88,7 @@
   animation: slideRight 1s ease forwards;
   animation-delay: 1s;
 }
+
 .home-content p {
   font-size: 20px;
   opacity: 0;
@@ -98,6 +101,7 @@
     transform: translateX(-100px);
     opacity: 0;
   }
+
   100% {
     transform: translateX(0px);
     opacity: 1;
@@ -109,6 +113,7 @@
     transform: translateX(100px);
     opacity: 0;
   }
+
   100% {
     transform: translateX(0px);
     opacity: 1;
@@ -120,16 +125,19 @@
     transform: translateX(100px);
     opacity: 0;
   }
+
   100% {
     transform: translateX(0px);
     opacity: 1;
   }
 }
+
 @keyframes slideBottom {
   0% {
     transform: translateY(-100px);
     opacity: 0;
   }
+
   100% {
     transform: translateY(0px);
     opacity: 1;
@@ -224,6 +232,7 @@ body {
   list-style: none;
   margin: 10px 0;
 }
+
 .tab-content ul li span {
   color: #ff7200;
   font-size: 14px;
@@ -240,6 +249,7 @@ body {
 .code-icons {
   margin-top: 10px;
 }
+
 .code-icons a {
   text-decoration: none;
   font-size: 20px;
@@ -262,6 +272,7 @@ body {
 #skills {
   padding: 30px 0;
 }
+
 .skill-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -277,6 +288,7 @@ body {
   border-radius: 10px;
   transition: background 0.5s, transform 0.5s;
 }
+
 .skill-list div i {
   font-size: 50px;
   margin-bottom: 30px;
@@ -394,10 +406,12 @@ body {
   from {
     opacity: 0.4;
   }
+
   to {
     opacity: 1;
   }
 }
+
 /* projects */
 
 #projects {
@@ -447,6 +461,7 @@ body {
   font-weight: 500;
   margin-bottom: 20px;
 }
+
 .layer a {
   margin-top: 20px;
   color: #ff7200;
@@ -479,6 +494,7 @@ body {
   color: white;
   transition: background 0.5s;
 }
+
 .btn:hover {
   /* background: #ff004f; */
   background: #ff7200;
@@ -497,6 +513,7 @@ body {
 .contact-l p {
   margin-top: 30px;
 }
+
 .contact-l p i {
   /* color: #ff004f; */
   color: #ff7200;
@@ -507,6 +524,7 @@ body {
 .social-icons {
   margin-top: 30px;
 }
+
 .social-icons a {
   text-decoration: none;
   font-size: 30px;
@@ -530,6 +548,7 @@ body {
   /* background-color: #ff004f;   */
   /* background-color: #ff7200;  */
 }
+
 .btn.btn2 {
   display: inline-block;
   /* background-color: #ff004f;   */
@@ -577,6 +596,7 @@ nav .fa-solid {
 }
 
 @media only screen and (max-width: 600px) {
+
   /* #header {
     background-image: url("images/home-phone.jpg");
   } */
@@ -588,6 +608,7 @@ nav .fa-solid {
     margin-left: 5px;
     /* margin: 5px 0; */
   }
+
   .header {
     background-color: rgb(0, 0, 80);
     padding: 10px 0;
@@ -618,11 +639,13 @@ nav .fa-solid {
   .home-content h3 span {
     color: #ff7200;
   }
+
   .home-content h1 {
     margin-bottom: 8px;
     font-size: 50px;
     font-weight: 700;
   }
+
   .home-content h3 {
     font-size: 20px;
     font-weight: 700;
@@ -644,10 +667,12 @@ nav .fa-solid {
   .sub-txt {
     font-size: 40px;
   }
+
   .column1 {
     flex-basis: 100%;
     margin-bottom: 30px;
   }
+
   .column2 {
     flex-basis: 100%;
     font-size: 14px;
@@ -667,6 +692,7 @@ nav .fa-solid {
     font-size: 9px;
     padding: 10px 0;
   }
+
   .contact-l p {
     font-size: 14px;
   }
