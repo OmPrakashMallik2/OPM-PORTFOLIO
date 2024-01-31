@@ -54,12 +54,12 @@ Feel free to reach out to me for any inquiries or collaboration opportunities.
 
 Connect with me on social media:
 - [GitHub](https://github.com/OmPrakashMallik2)
-- [LinkedIn](#)
+- [LinkedIn](https://www.linkedin.com/in/om-prakash-mallik-774187217/)
 - [GeeksforGeeks](https://auth.geeksforgeeks.org/user/omprakashmallik91/practice)
 - [LeetCode](https://leetcode.com/OmPrakashMallik/)
 - [CodingNinjas](https://www.codingninjas.com/studio/profile/OmPrakashMallik)
 
-Download my [CV](images/OmPrakashMallik_CV.pdf).
+Download my [CV](images/OmPrakashMallik_CV(3).pdf).
 
 ---
 
