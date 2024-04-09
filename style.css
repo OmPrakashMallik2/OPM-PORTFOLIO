@@ -704,3 +704,20 @@ nav .fa-solid {
     /* margin-top: -5px; */
   }
 }
+
+
+
+/* Visit counter */
+
+.visit-counter {
+  text-align: center;
+  padding: 20px;
+}
+
+.visit-counter h3 {
+  margin-bottom: 10px;
+}
+
+.visit-counter img {
+  max-width: 100%;
+}

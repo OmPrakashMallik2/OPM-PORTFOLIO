@@ -43,6 +43,9 @@
 
     <!-- can comment down -->
     <div class="social-icons">
+      <a aria-label="Chat on WhatsApp"
+        href="https://wa.me/7352281493?text=Hey,%20Om%20Prakash%20Mallik%20,%20I%20got%20your%20number%20from%20your%20protfolio."><i
+          class="fa-brands fa-whatsapp"></i></a>
       <a href="https://www.twitter.com/OmPrakashOG/" target="_blank"><i class="fab fa-twitter"></i></a>
       <a href="https://www.instagram.com/omxprakashxmallik/" target="_blank"><i class="fab fa-instagram"></i></a>
       <a href="https://www.linkedin.com/in/om-prakash-mallik-774187217/" target="_blank"><i
@@ -364,6 +367,9 @@
             <a href="https://www.instagram.com/omxprakashxmallik/" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://www.linkedin.com/in/om-prakash-mallik-774187217/" target="_blank"><i
                 class="fab fa-linkedin"></i></a>
+            <a aria-label="Chat on WhatsApp"
+              href="https://wa.me/7352281493?text=Hey,%20Om%20Prakash%20Mallik%20,%20I%20got%20your%20number%20from%20your%20protfolio."><i
+                class="fa-brands fa-whatsapp"></i></a>
             <!-- <a href="https://www.youtube.com/@OmPrakashMallikOG" target="_blank"><i class="fab fa-youtube"></i></a> -->
           </div>
           <!-- <a class="btn btn2" href="images/my-photo.jpg" download>Download CV</a> -->
@@ -378,26 +384,51 @@
           <!-- <span id="msg">hello</span> -->
         </div>
       </div>
+
+      <div class="visit-counter">
+        <h3>Visit count: </h3>
+        <a href="https://www.hitwebcounter.com" target="_blank">
+          <img src="https://hitwebcounter.com/counter/counter.php?page=12561793&style=0006&nbdigits=5&type=page&initCount=0" title="Counter Widget" alt="Visit counter For Websites" border="0" />
+        </a>
+      </div>
+      
     </div>
     <div class="copyright">
       <!-- <p>© 2023 copyright all right reserved</p> -->
       <p>Copyright ©️ 2024 OmPrakashMalliik All rights reserved.</p>
+      <!-- hitwebcounter Code START -->
+
     </div>
   </div>
 
-
   <!-- section for test and demos -->
-  <div>
-    <form action="send_email.php" method="post">
+  <!-- <div>
+    <form onsubmit="sendEmail(); reset(); return false;">
       <input type="text" name="Name" placeholder="Your Name" required />
       <input type="email" name="Email" placeholder="Your Email" required />
       <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
       <button type="submit" class="btn btn2">Send Message</button>
     </form>
-  </div>
+  </div> -->
 
   <!-- javascript -->
   <script src="script.js"></script>
+  <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+    function sendEmail() {
+      Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "username",
+        Password: "password",
+        To: 'them@website.com',
+        From: "you@isp.com",
+        Subject: "This is the subject",
+        Body: "And this is the body"
+      }).then(
+        message => alert(message)
+      );
+    }
+  </script> -->
 </body>
 
 </html>
